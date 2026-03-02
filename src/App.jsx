@@ -9,6 +9,7 @@ export const App = () => {
       <Header />
       <Home />
       <Enlace/>
+    
     </>
   )
 }
