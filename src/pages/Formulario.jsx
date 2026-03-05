@@ -6,11 +6,12 @@ export const Formulario = () => {
       <div className="row shadow-lg " style={{ maxWidth: "800px", width: "100%" }}>
 
        
-        <div className="col-md-5 p-0" style={{ minHeight: "520px" }}>
+        <div className="col-md-5 p-1" style={{ minHeight: "520px" }}>
           <img
-            src="./sir.jpeg"
+            src="./sir.jpeg "
             alt="character"
-            className="w-100 h-100"
+            className="w-100 h-100 rounded-4 border border-2"
+            
             style={{ objectFit: "cover", objectPosition: "top" }}
           />
         </div>

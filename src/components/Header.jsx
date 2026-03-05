@@ -40,8 +40,8 @@ export const Header = () => {
           <a className="nav-link disabled" aria-disabled="true">About</a>
         </li>
       </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <form className="d-flex gap-3" role="search">
+        <button className="btn btn-primary" type="submit">Login</button>
         <button className="btn btn-outline-success" type="submit">Register</button>
       </form>
     </div>
