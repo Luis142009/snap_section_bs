@@ -2,6 +2,11 @@
 export const Abount = () => {
   return (
     <>
+
+
+
+
+
        <div className="container border  shadow-lg border-blue mt-5 p-5 pt-0" style={{borderRadius: "10px"}}>
                 <div className="row mt-5">
                     <div className="col  p-3 mb-2 bg-light text-dark " style={{borderRadius: "10px"}}> 
@@ -36,6 +41,8 @@ export const Abount = () => {
                     </div>
                 </div>
             </div>
+
+            
         
     </>
   )
