@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Header } from "./components/Header"
 import { Abount } from "./pages/Abount"
 import { Enlace } from "./pages/Enlace"
@@ -12,16 +13,23 @@ import { Yes } from "./pages/Yes"
 export const App = () => {
   return (
     <>
-      <Header />
-      <Home />
-      <Enlace/>
-       <Otra/>
-       <Yes/>
-       <Final/>
-       <Abount/>
-       <Formulario/>
-       <Inicio/>
-    
+      <BrowserRouter>
+        <Header />
+
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="Header" element={<Header />} />
+          <Route path="Enlace" element={<Enlace />} />
+          <Route path="Formulario" element={<Formulario />} />
+          <Route path="Abount" element={<Abount />} />
+          <Route path="Inicio" element={<Inicio />} />
+          <Route path="Final" element={<Final />} />
+        </Routes>
+
+        
+
+      </BrowserRouter>
     </>
   )
 }

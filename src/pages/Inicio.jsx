@@ -4,7 +4,7 @@ export const Inicio = () => {
   return (
     <>
     
-    <div className="container-fluid min-vh-100 d-flex align-items-center justify-content-center" style={{ background: "#ffffff" }}>
+    <div className="container-fluid min-vh-100 d-flex align-items-center justify-content-center" style={{ backgroundImage: "public/poppy.webp", backgroundSize: "cover", backgroundPosition: "center" }}>
       <div className="row shadow-lg rounded" style={{ maxWidth: "800px", width: "100%" }}>
 
         <div
@@ -15,22 +15,22 @@ export const Inicio = () => {
             border: "1px solid rgba(255, 255, 255, 0.6)"
           }}
         >
-          <p className="text-muted small mb-1">🟪 yourtext</p>
-          <h4 className="fw-bold mb-4">Registration Form</h4>
+          <p className="text-muted small mb-1">🟪 Bienvenido</p>
+          <h4 className="fw-bold mb-4">Formulario de Registro</h4>
 
           <div className="row mb-3">
             <div className="col">
-              <label className="form-label text-muted small">First Name</label>
-              <input type="text" className="form-control border-0 border-bottom rounded-0 px-0 bg-transparent" placeholder="Name" />
+              <label className="form-label text-muted small">Primer Nombre</label>
+              <input type="text" className="form-control border-0 border-bottom rounded-0 px-0 bg-transparent" placeholder="Nombre" />
             </div>
-            <div className="col">
-              <label className="form-label text-muted small">Second Name</label>
-              <input type="text" className="form-control border-0 border-bottom rounded-0 px-0 bg-transparent" placeholder="Name" />
+            <div className="col-">
+              <label className="form-label text-muted small">Segundo Nombre</label>
+              <input type="text" className="form-control border-0 border-bottom rounded-0 px-0 bg-transparent" placeholder="Segundo " />
             </div>
           </div>
 
           <div className="mb-3">
-            <label className="form-label text-muted small">Username</label>
+            <label className="form-label text-muted small">Nombre de Usuario</label>
             <input type="text" className="form-control border-0 border-bottom rounded-0 px-0 bg-transparent" />
           </div>
 
@@ -40,19 +40,19 @@ export const Inicio = () => {
           </div>
 
           <div className="mb-4">
-            <label className="form-label text-muted small">Phone Number</label>
+            <label className="form-label text-muted small">Número de Teléfono</label>
             <input type="tel" className="form-control border-0 border-bottom rounded-0 px-0 bg-transparent" />
           </div>
 
           <button className="btn text-white px-4 rounded-pill" style={{ background: "#3d2f8f" }}>
-            Register
+            Registro
           </button>
         </div>
 
-        {/* Imagen derecha */}
+        
         <div className="col-md-6 p-0" style={{ minHeight: "480px", background: "#1a1a3e", overflow: "hidden" }}>
           <img
-            src="noot.png" width="100%" height="100%" alt="character"
+            src="sopa.jpg" width="100%" height="100%" alt="character"
             style={{ objectFit: "cover", objectPosition: "center" }}
           />
         </div>

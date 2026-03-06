@@ -24,7 +24,7 @@ export const Home = () => {
                     <div className="col-6">
                         <div className="">
                                 {/* liga */}
-                                <img src="./sir.jpeg"  className="rounded-5 border border-5" height="400" alt="" />
+                                <img src="./death.jpg"  className="rounded-5 border border-5" height="300" alt="" />
                             </div>
                     </div>
                 </div>
